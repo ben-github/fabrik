@@ -17,6 +17,6 @@ defined('_JEXEC') or die('Restricted access');
  * @subpackage  Database
  * @since       11.1
  */
-class JDatabaseQueryMysql_Fab extends JDatabaseQueryMysql
+class JDatabaseQueryPostgresql_Fab extends JDatabaseQueryPostgresql
 {
 }

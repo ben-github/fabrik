@@ -17,14 +17,14 @@ defined('_JEXEC') or die('Restricted access');
  * @subpackage	Database
  * @since		3.0.7
  */
-class JDatabaseDriverMySQL_Fab extends JDatabaseDriverMysql
+class JDatabaseDriverPostgresql_Fab extends JDatabaseDriverPostgresql
 {
 	/**
 	 * The database driver name
 	 *
 	 * @var string
 	 */
-	public $name = 'mysql_fab';
+	public $name = 'postgres_fab';
 
 	/**
 	 * This function replaces a string identifier <var>$prefix</var> with the
