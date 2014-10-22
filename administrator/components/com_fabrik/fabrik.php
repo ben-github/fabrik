@@ -78,7 +78,7 @@ else
 // Test that they've published some element plugins!
 $db = JFactory::getDbo();
 $query = $db->getQuery(true);
-$query->select('COUNT(extension_id)')->from('#__extensions')->where('enabled = 1 AND folder = "fabrik_element"');
+$query->select('COUNT(extension_id)')->from('#__extensions')->where('enabled = 1 AND folder = \'fabrik_element\'');
 $db->setQuery($query);
 
 if (count($db->loadResult()) === 0)

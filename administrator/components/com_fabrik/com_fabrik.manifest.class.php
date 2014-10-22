@@ -26,7 +26,7 @@ class Com_FabrikInstallerScript
 	 *
 	 * @var array
 	 */
-	protected $drivers = array('mysql_fab.php', 'mysqli_fab.php');
+	protected $drivers = array('mysql_fab.php', 'mysqli_fab.php','postgres_fab.php');
 
 	/**
 	 * Run when the component is installed
